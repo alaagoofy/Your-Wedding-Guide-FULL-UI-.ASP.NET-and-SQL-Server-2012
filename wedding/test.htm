@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html dir='rtl' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b'
+xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'
+xmlns:fb='http://www.facebook.com/2008/fbml'>
+<head>
+
+     <title></title>
+   
+
+  
+    <style type='text/css'>
+
+
+#on{visibility:visible}
+#off{visibility:hidden}
+#facebook_div{width:196px;height:340px;overflow:hidden}
+#twitter_div{width:246px;height:353px;overflow:hidden}
+#google_plus_div{width:152px;height:97px;overflow:hidden;margin-left:50px;margin-top:10px}
+#knfeedburner_div{width:300px;height:97px;overflow:hidden;margin-top:5px;margin-left:-4px}
+#kakinetwork_div{width:300px;height:97px;overflow:hidden}
+#facebook_right{z-index:10005;border:2px solid#3c95d9;background-color:#fff;width:196px;height:353px;position:fixed;right:-200px}
+#facebook_right img{position:absolute;top:-2px;left:-35px}
+#facebook_right iframe{border:0px solid#3c95d9;overflow:hidden;position:static;height:360px;left:-2px;top:-3px}
+#twitter_right{z-index:10004;border:2px solid#6CC5FF;background-color:#6CC5FF;width:246px;height:353px;position:fixed;right:-250px}
+#twitter_right_img{position:absolute;top:-2px;left:-35px;border:0}
+#google_plus_right{z-index:10003;background-color:#F2F2F2;border:2px solid#006ec9;border-top:2px solid#0056a0;border-bottom:2px solid#0056a0;border-right:2px solid#0056a0;border-left:hidden;width:152px;height:97px;position:fixed;right:-154px}
+#google_plus_right_img{position:absolute;top:-2px;left:-33px;border:0}
+#feedburner_right{z-index:10003;background-color:#fefefe;border:2px solid#5b5b5b;border-top:2px solid#5b5b5b;border-bottom:2px solid#5b5b5b;border-right:2px solid#5b5b5b;border-left:hidden;width:300px;height:97px;position:fixed;right:-303px}
+#feedburner_right_img{position:absolute;top:-2px;left:-33px;border:0}#kakinetwork_right{z-index:10003;border:2px solid#303030;background-color:#fff;width:300px;height:97px;position:fixed}
+#kakinetwork_right img{position:absolute;top:-2px;left:-101px}#facebook_left{z-index:10005;border:2px solid#3c95d9;background-color:#fff;width:196px;height:353px;position:fixed;left:-200px}
+#facebook_left img{position:absolute;top:-2px;right:-35px}
+#facebook_left iframe{border:0px solid#3c95d9;overflow:hidden;position:static;height:360px;right:-2px;top:-3px}
+#twitter_left{z-index:10004;border:2px solid#6CC5FF;background-color:#6CC5FF;width:246px;height:353px;position:fixed;left:-250px}
+#twitter_left_img{position:absolute;top:-2px;right:-35px;border:0}
+#google_plus_left{z-index:10003;background-color:#006ec9;border:2px solid#006ec9;border-top:2px solid#0056a0;border-bottom:2px solid#0056a0;border-left:2px solid#0056a0;border-right:hidden;width:152px;height:97px;position:fixed;left:-154px}
+#google_plus_left_img{position:absolute;top:-2px;right:-33px;border:0}
+#feedburner_left{z-index:10003;background-color:#fefefe;border:2px solid#5b5b5b;border-top:2px solid#5b5b5b;border-bottom:2px solid#5b5b5b;border-left:2px solid#5b5b5b;border-right:hidden;width:300px;height:97px;position:fixed;left:-303px}
+#feedburner_left_img{position:absolute;top:-2px;right:-33px;border:0}
+#kakinetwork_left{z-index:10003;border:2px solid#303030;background-color:#fff;width:300px;height:97px;position:fixed}
+#kakinetwork_left img{position:absolute;top:-2px;right:-101px}
+.box-title1{border:1px solid#ddd;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;-webkit-box-shadow:5px 5px 5px#CCCCCC;-moz-box-shadow:5px 5px 5px#CCCCCC;box-shadow:5px 5px 5px#CCCCCC;padding:10px;margin:10px 0}
+.enteryouremail{background:#fff!important;border:1px solid#d2d2d2;padding:0px 8px 0px 8px;color:#a19999;font-size:12px;height:25px;width:165px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;margin:0px}
+.submitbutton{background:#F2F2F2;border:1px solid#F66303;-webkit-box-shadow:3px 3px 3px#666;box-shadow:3px 3px 3px#666;font:bold 12px Arial,sans-serif;color:#000000;height:25px;padding:0 12px 0 12px;margin:0 0 0 5px;-webkit-border-radius:5px;border-radius:5px;cursor:pointer}
+
+--></style>
+
+  
+</head>
+<body>
+   
+                            <div class='widget HTML' id='HTML2'>
+                                <div class='widget-content'>
+                                    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
+                                    <script type="text/javascript" src="http://apis.google.com/js/plusone.js"></script>
+                                    <script type="text/javascript">
+                                        jQuery(document).ready(function () {
+                                            jQuery("#facebook_right").hover(function () { 
+                                     jQuery(this).stop(true, false).animate({ right: 0 }, 500); }, function () { jQuery("#facebook_right").stop(true, false).animate({ right: -200 }, 500); }); jQuery("#twitter_right").hover(function () { jQuery(this).stop(true, false).animate({ right: 0 }, 500); }, function () { jQuery("#twitter_right").stop(true, false).animate({ right: -250 }, 500); }); jQuery("#google_plus_right").hover(function () { jQuery(this).stop(true, false).animate({ right: 0 }, 500); }, function () { jQuery("#google_plus_right").stop(true, false).animate({ right: -154 }, 500); }); jQuery("#feedburner_right").hover(function () { jQuery(this).stop(true, false).animate({ right: 0 }, 500); }, function () { jQuery("#feedburner_right").stop(true, false).animate({ right: -303 }, 500); }); });</script>
+                                    <div id="on">
+                                        <div id="facebook_right" style="top: 18%;">
+                                            <div id="facebook_div">
+                                                <img src="images/facebook-icon.png"
+                                                    alt="" />
+                                                    
+                                                 
+                                                    <iframe src="//www.facebook.com/plugins/likebox.php? href=http%3A%2F%2Fwww.facebook.com%2Furweddingguide&amp;width=200&amp;height=346&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=false&amp;header=false"
+                                                        scrolling="no" frameborder="0" style="border: none; overflow: hidden; width: 200px;
+                                                        height: 346px;" allowtransparency="true"></iframe>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="on">
+                                        <div id="twitter_right" style="top: 30%;">
+                                            <div id="twitter_div">
+                                                <img id="twitter_right_img" src="images/twitter-icon.png" />
+                                                <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+                                                <script>                                                    new TWTR.Widget({ version: 2, type: 'profile', rpp: 4, interval: 1000, width: 246, height: 265, theme: { shell: { background: '#63BEFD', color: '#FFFFFF' }, tweets: { background: '#FFFFFF', color: '#000000', links: '#47a61e'} }, features: { loop: false, live: true, scrollbar: false, hashtags: false, timestamp: true, avatars: true, behavior: 'all'} })
+.render().setUser('urwedding_guide').start();</script>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="on">
+                                        <div id="google_plus_right" style="top: 42%;">
+                                            <div id="google_plus_div">
+                                                <img id="google_plus_right_img" src="images/google-plus-icon.png" /><div
+                                                    style="float: left; margin: 10px 10px 10px 0;">
+                                                    <g:plusone size="tall" expr:href="data:post.url"></g:plusone>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="on">
+                                            <div id="feedburner_right" style="top: 54%;">
+                                                <div id="knfeedburner_div">
+                                                    <center>
+                                                        <h4 style="color: #F66303;">
+                                                            سجل إميلك وتوصل بمواضيعنا :</h4>
+                                                      
+                                                        <input gtbfieldid="10" class="enteryouremail" name="email" value="" onblur="if (this.value == &#39;&#39;) {this.value = &#39;أدخل إميلك هنا ...&#39;;}"
+                                                            onfocus="if (this.value == &#39;أدخل إميلك هنا ...&#39;) {this.value = &#39;&#39;;}"
+                                                            type="text" /><input value="feedburner/dailymedicalinfo/RtpJ" name="uri" type="hidden" /><input
+                                                                value="أرسل" class="submitbutton" type="submit" />
+                                                    </center>
+                                                    <img id="feedburner_right_img" src="images/rssfeed.png" alt="" /></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                             
+                                <div class='clear'>
+                                </div>
+                            </div>
+                     
+</body>
+</html>

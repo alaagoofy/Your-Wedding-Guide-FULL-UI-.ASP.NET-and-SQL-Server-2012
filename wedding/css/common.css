@@ -1,0 +1,52 @@
+
+/* LAYOUT STYLE */
+
+
+/* CSS3 STYLE GENERIC */
+.view {
+   width: auto;
+   height: auto;
+ 
+  
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+  
+   cursor: default;-webkit-border-radius:7px;-moz-border-radius:7px;border-radius:7px;
+   
+}
+.view .mask, .view .content {
+   width: auto;
+   height: auto;
+   position: absolute;
+   overflow: hidden;
+   top:0;right:0;
+  padding:10px;color:#fff
+}
+.view img {
+ 
+}
+.view a.info {
+  
+}
+
+.mask p {color:#fff !important}
+.mask span {color:#fff !important}
+.mask p span {color:#fff !important}
+.mask a {color:#000 !important}
+.mask a:hover {color:#fff !important}
+a {
+	-moz-transition:color 0.3s ease-out;
+	-webkit-transition:color 0.3s ease-out;
+	-o-transition:color 0.3s ease-out;
+	-ms-transition:color 0.3s ease-out;
+	transition:color 0.3s ease-out;
+}
+
+
+.main{
+	position:relative;
+    width:680px;
+    margin: 0 auto;
+	padding:20px 0;
+}

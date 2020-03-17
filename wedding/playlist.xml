@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<playlist>
+	<item>
+		<title>You are so beautiful to me</title>
+	<artist>jessica sanchez</artist>
+		<path>Youaresobeautifultome.mp3</path>
+	</item>
+	<item>
+		<title>Don't Know Why</title>
+		<artist>Norah Jones</artist>
+		<path>NorahJonesDon'tKnowWhy.mp3</path>
+	</item>
+	<item>
+		<title>Unforgettable</title>
+		<artist>Frank Sinatra</artist>
+		<path>FrankSinatraUnforgettable.mp3</path>
+	</item>
+	<item>
+		<title>Only Time Sweet November</title>
+		<artist>Enya</artist>
+		<path>OnlyTimeSweetNovember.mp3</path>
+	</item>
+	<item>
+		<title>Right Here Waiting For You</title>
+		<artist>Richard Marx</artist>
+		<path>RichardMarxRightHereWaitingForYou.mp3</path>
+	</item>
+	<item>
+		<title>Time to Say Goodbye</title>
+		<artist>Andrea Bocelli</artist>
+		<path>TimetoSayGoodbye.mp3</path>
+	</item>
+	<item>
+		<title>The Way You Look At Me</title>
+		<artist>Christian Bautista</artist>
+		<path>TheWayYouLookAtMe.mp3</path>
+	</item>
+	<item>
+		<title>Love of My Life</title>
+		<artist>The Wedding Song</artist>
+		<path>LoveofMyLifeTheWeddingSong.mp3</path>
+	</item>
+	
+</playlist>

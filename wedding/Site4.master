@@ -1,0 +1,406 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site4.master.cs" Inherits="SiteMaster" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title>Your Wedding Guide, The best seller guide in the middle east</title>
+    <meta name="description" content="YOUR WEDDING GUIDE
+is a printed catalogue for all bride needs – 600 pages including wedding & engagement dresses, makeup artist, hair dresses , wedding planners,flowers arrangement, video,photographers, furniture, home accessories, hotels & resorts and more" />
+    <meta name="keywords" content="wedding, guide, fashion, beauty, jewelry, planning, photography, furniture, honeymoon, dresses, dress, make up, cake, wedding planner, hair style" />
+    <meta name="google-site-verification" content="lmb0IBL5UX4SYrQ8cJlLynydyCV6MizKzQXiFSAjx0U" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="http://www.yourwedding-guide.com/reveal.css" />
+    <link rel="shortcut icon" href="http://www.yourwedding-guide.com/wb.ico" />
+    <link rel="icon" href="http://www.yourwedding-guide.com/wb.ico" type="image/x-icon" />
+    <link rel="alternate" type="application/rss+xml" title="Your Wedding Guide RSS" href="/rss.aspx" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.js?ver=3.4.2'></script>
+    <script type="text/javascript">
+        jQuery.noConflict();
+        var $j = jQuery;
+    </script>
+    <script type='text/javascript'>
+        $(window).bind("load", function () {
+            // animasikan nilai top saat halaman telah selesai dimuat
+            $('#kotak-pesan').animate({ top: "90px" }, 1000, "easeOutBounce");
+            // hilangkan kotak pesan saat tombol (x) diklik
+            $('a.close').click(function () {
+                $(this).parent().slideUp(800, "easeOutBounce");
+                return false;
+            });
+        });
+    </script>
+    <script type="text/javascript" src="http://www.yourwedding-guide.com/jquery.reveal.js"></script>
+    <script src="http://www.yourwedding-guide.com/js/jquery.min.js" type="text/javascript"></script>
+    <script src="http://www.yourwedding-guide.com/js/jquery.easing.js" type="text/javascript"></script>
+    <style type="text/css">
+        #slide_top
+        {
+            background: url(images/top_slide.png) no-repeat 21px 24px;
+            border-radius: 5px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            bottom: 10px;
+            display: none;
+            opacity: 0.5;
+            position: fixed;
+            right: 10px;
+            z-index: 998;
+            height: 50px;
+            width: 50px;
+            text-indent: -9999px;
+            -webkit-transition: opacity .2s ease-in-out;
+            -moz-transition: opacity .2s ease-in-out;
+            -ms-transition: opacity .2s ease-in-out;
+            -o-transition: opacity .2s ease-in-out;
+            transition: opacity .2s ease-in-out;
+        }
+        
+        #slide_top:hover
+        {
+            opacity: 1;
+        }
+        #slide_top
+        {
+            background-color: #F7B103;
+        }
+    </style>
+    <script type="text/javascript">
+        function scrollTo() {
+            return;
+        }
+    </script>
+    <%--<script type="text/javascript"> 
+<!--
+    //Disable right click script III- By Renigade (renigade@mediaone.net) 
+    //For full source code, visit http://www.dynamicdrive.com 
+    var message = "Sorry, right-click has been disabled";
+    /////////////////////////////////// 
+    function clickIE() { if (document.all) { (message); return false; } }
+    function clickNS(e) {
+        if
+(document.layers || (document.getElementById && !document.all)) {
+            if (e.which == 2 || e.which == 3) { (message); return false; } 
+        } 
+    }
+    if (document.layers)
+    { document.captureEvents(Event.MOUSEDOWN); document.onmousedown = clickNS; }
+    else { document.onmouseup = clickNS; document.oncontextmenu = clickIE; }
+    document.oncontextmenu = new Function("return false") 
+// --> 
+</SCRIPT> 
+
+
+<script type="text/javascript">
+
+    var message = "Sorry, that function is disabled.\n\n";
+    message += "This page is copyrighted, and ";
+    message += "all content is protected.";
+
+    function click(e) {
+        if (document.all) {
+            if (event.button == 2) {
+                alert(message);
+                return false;
+            }
+        }
+        if (document.layers) {
+            if (e.which == 3) {
+                alert(message);
+                return false;
+            }
+        }
+    }
+
+    if (document.layers) {
+        document.captureEvents(Event.MOUSEDOWN);
+    }
+    document.onmousedown = click; 
+
+</script> --%>
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-35676258-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="html front not-logged-in page-ar page-ar-الرئيسية front">
+    <form runat="server">
+    <a href="#" id="slide_top"></a>
+    <ajaxToolkit:ToolkitScriptManager ID="ScriptManager1" runat="server">
+    </ajaxToolkit:ToolkitScriptManager>
+    <div id="fb-root">
+    </div>
+    <script type="text/javascript">        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+            fjs.parentNode.insertBefore(js, fjs);
+        } (document, 'script', 'facebook-jssdk'));</script>
+    <script type="text/javascript">
+        (function () {
+            var em = document.createElement('script'); em.type = 'text/javascript'; em.async = true;
+            em.src = ('https:' == document.location.protocol ? 'https://me-ssl' : 'http://me-cdn') + '.effectivemeasure.net/em.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(em, s);
+        })();
+    </script>
+    <noscript>
+        <img src="//me.effectivemeasure.net/em_image" alt="" style="position: absolute; left: -5px;" />
+    </noscript>
+    <div id="loading-body">
+    </div>
+    <span id="rt"></span>
+  
+    <div class="clr">
+    </div>
+    <div class="divlogo">
+        <div class="auto" style="width: 1100px">
+            <div class="logo">
+                <a href="~/" runat="server" title="Your Wedding Guide">
+                    <img src="~/images/logo.png" runat="server" alt="Your Wedding Guide, The best seller guide in the middle east" /></a>
+            </div>
+              <div class="soicalTop">
+              <ul>
+               <li> <a href="http://www.facebook.com/urweddingguide" target="_blank" title="Facebook Page"><img src="images/fb.png" alt="" /></a></li>
+                <li> <a href="https://twitter.com/YourWedding_eg" target="_blank" title="Twitter Page"><img src="images/t.png" alt="" /></a></li>
+                <li> <a href="http://pinterest.com/urweddingguide/" target="_blank" title="Pinterest Page"><img src="images/pint.png" alt="" /></a></li>
+                </ul>
+                <div class="clearfix"></div>
+                  <img src="images/callus.jpg" style="margin:4px 0 0 -40px" alt="Call Your Wedding Guide" />
+                </div>
+
+
+            <div class="upMenu">
+                <%--  <a href="#" class="magazine" title="Order Your Copy Now"></a>--%>
+               
+              
+
+
+                <div class="search">
+                    <span>
+                        <asp:TextBox ID="txt_search" PlaceHolder="Search" runat="server"></asp:TextBox></span>
+                    <b>
+                        <asp:Button ID="Button1" runat="server" Text="" OnClick="Button1_Click" /></b>
+                </div>
+                <div id="content">
+                    <div id="signbtn">
+                        <asp:Panel ID="panal_users" runat="server">
+                            <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                                <AnonymousTemplate>
+                                    <a id="A2" href="~/Register.aspx" runat="server" class="btnsignout" style="margin: 15px 0 0 10px;
+                                        display: inline-block;width:60px;text-align:center">Register</a> <a href="~/Login.aspx" id="HeadLoginStatus"
+                                            class="btnsignout" style="margin: 15px 0 0;width:60px;display:inline-block;text-align:center" runat="server">Log In</a>
+                                </AnonymousTemplate>
+                                <LoggedInTemplate>
+                                    <div class="Profile">
+                                        <a href="#" class="btnsignin"><span class="bold">
+                                            <asp:LoginName ID="HeadLoginName" runat="server" />
+                                            <img src="images/drop.png" alt="User Info" /></span></a>
+                                        <asp:LoginStatus ID="HeadLoginStatus" runat="server" class="btnsignout" LogoutAction="Redirect"
+                                            LogoutText="Log Out" LogoutPageUrl="~/" />
+                                    </div>
+                                </LoggedInTemplate>
+                            </asp:LoginView>
+                        </asp:Panel>
+                        <asp:Panel ID="panal_facebook" Visible="false" runat="server">
+                            <p>
+                                <a href="#" class="btnsignin" style="width: 200px">
+                                    <asp:Image ID="Image1" Width="25" Style="margin-bottom: -5px" Visible="false" runat="server" />
+                                    <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
+                                    <img src="images/drop.png" alt="User Info" />
+                                </a>
+                               
+                            </p>
+                        </asp:Panel>
+                        <%--<a href="#" class="btnsignin">Log In</a>--%>
+                        <div class="clr">
+                        </div>
+                    </div>
+                    <div id="frmsignin">
+                        <asp:Panel ID="Panel_Admin" runat="server">
+                            <a runat="server" href="~/Account/">Admin</a>
+                        </asp:Panel>
+                        <asp:Panel ID="panel_Vendor" runat="server">
+                            <a runat="server" href="~/VendorInfo.aspx" class="Profile" id="A1">My Account</a>
+                        </asp:Panel>
+                        <div class="clr">
+                        </div>
+                        <a href="MyFavorites.aspx" class="favProfile">View My Favorites</a> 
+                         <asp:LinkButton ID="LinkButton1" CssClass="" runat="server"
+                                    OnClick="LinkButton1_Click" Style="margin: 8px 0 0 0px; display: inline-block">
+       <img src="images/fb-Logout.png" style="width:60px" alt="Alternate Text" /></asp:LinkButton>
+
+
+                        <a href="ChangePassword.aspx"
+                            id="changepassword" runat="server" class="password">Change Password</a>
+                    </div>
+                    <script type="text/javascript" src="js/jquery.form-2.4.0.min.js"></script>
+                    <script type="text/javascript" src="js/jqeasy.dropdown.min.js"></script>
+                </div>
+            </div>
+            <div class="clr">
+            </div>
+        </div>
+    </div>
+    <div class="shadMenu">
+        <div class="auto" style="width: 1050px">
+            <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                <ContentTemplate>
+                    <div class="nav">
+                        <ul class="menu">
+                            <li><a href="/">Home</a>|</li>
+                            <asp:Repeater ID="Repeater2" runat="server" OnItemDataBound="Repeater1_ItemDataBound">
+                                <ItemTemplate>
+                                    <li>
+                                        <asp:HiddenField ID="HiddenField2" Value='<%#Eval("ID") %>' runat="server" />
+                                        <asp:LinkButton ID="LinkButton1" runat="server">
+                                                        <%#Eval("Title") %>
+                                        </asp:LinkButton>
+                                        <ul runat="server" id="visibleMenu">
+                                            <li>
+                                                <asp:Repeater ID="Repeater1" runat="server">
+                                                    <ItemTemplate>
+                                                        <a href='<%# "Category.aspx?ID=" + Eval("ID") %>'>
+                                                            <%#Eval("Title") %></a>
+                                                    </ItemTemplate>
+                                                </asp:Repeater>
+                                            </li>
+                                        </ul>
+                                        |</li>
+                                </ItemTemplate>
+                            </asp:Repeater>
+                            <li><a href="Order.aspx">Order </a>|</li>
+                            <li><a href="Career.aspx">Career </a>|</li>
+                            <li><a href="Contacts.aspx">Contact </a></li>
+                        </ul>
+                        <div class="clr">
+                        </div>
+                    </div>
+                </ContentTemplate>
+            </asp:UpdatePanel>
+        </div>
+    </div>
+    <div class="clr">
+    </div>
+    <div style="margin-top:-15px;position:relative;z-index:-1">
+      <asp:ContentPlaceHolder runat="server" ID="Banner">
+    </asp:ContentPlaceHolder>
+
+
+    </div>
+     <div class="clr">
+    </div>
+    <div class="innerBody2" style="margin-top:0">
+        <asp:ContentPlaceHolder runat="server" ID="MainContent">
+        </asp:ContentPlaceHolder>
+        <div class="clr">
+        </div>
+    </div>
+    <div style="margin: -30px 0 0 0">
+        <div class="footer">
+            <div class="innerFooter">
+                <div class="links">
+                    <h4>
+                        Connect With Us</h4>
+                    <ul>
+                        <li><a href="About.aspx">About Us</a></li>
+                        <li><a href="Order.aspx">Order Your Copy</a></li>
+                        <li><a href="Career.aspx">Careers</a></li>
+                        <li><a href="Contacts.aspx">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <h4>
+                        Social Links</h4>
+                    <ul>
+                        <li><a href="http://www.facebook.com/urweddingguide" target="_blank">
+                            <img src="~/images/facebook.png" runat="server" style="width: 17px; height: 17px;
+                                margin-bottom: -3px; margin-right: 5px" alt="Your wedding guide facebook" />
+                            Facebook</a></li>
+                        <li><a href="http://pinterest.com/urweddingguide/" target="_blank">
+                            <img src="images/pint.png" runat="server" style="width: 17px; height: 17px;
+                                margin-bottom: -3px; margin-right: 5px" alt="Pinterest Page">
+                            Pinterest</a></li>
+                        <li><a href="https://twitter.com/YourWedding_eg" target="_blank">
+                            <img src="~/images/twitter.png" runat="server" style="width: 17px; height: 17px;
+                                margin-bottom: -3px; margin-right: 5px" alt="Your wedding guide twitter" />
+                            Twitter</a></li>
+                        <li><a href="https://plus.google.com/u/0/109129934188148301906/posts" target="_blank">
+                            <img src="~/images/google.png" runat="server" style="width: 17px; height: 17px; margin-bottom: -3px;
+                                margin-right: 5px" alt="Your wedding guide google" />
+                            Google Plus</a></li>
+                        <li><a href="http://www.youtube.com/urweddingguide" target="_blank">
+                            <img src="~/images/youtube.png" runat="server" style="width: 17px; height: 17px;
+                                margin-bottom: -3px; margin-right: 5px" alt="Your wedding guide youtube" />
+                            Youtube</a></li>
+                        <li><a href="http://www.yourwedding-guide.com/rss.aspx" target="_blank">
+                            <img id="Img1" src="~/images/rss.png" runat="server" style="width: 17px; height: 17px;
+                                margin-bottom: -3px; margin-right: 5px" alt="Your wedding guide RSS" />
+                            RSS</a></li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <h4>
+                        Wedding Vendors</h4>
+                    <ul>
+                        <li><a href="http://www.facebook.com/urweddingguide/app_203351739677351" target="_blank">
+                            Add Listing</a></li>
+                        <li><a href="Advertise.aspx">Advertise With Us</a></li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <h4>
+                        About The Guide</h4>
+                    <ul>
+                        <%--<li><a href="#">About Our Adds</a></li>
+                     <li><a href="#">Mission</a></li>--%>
+                        <li><a href="PrivacyPolicy.aspx">Privacy Policy</a></li>
+                        <li><a href="sitemap.aspx">Sitemap</a></li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <h4>
+                        Site Services</h4>
+                    <ul>
+                        <li><a href="Articles.aspx">Articles</a></li>
+                        <li><a href="Newsletter.aspx">Newsletter</a></li>
+                        <%-- <li><a href="#">Promo Events</a></li>--%>
+                    </ul>
+                </div>
+                <div class="links" style="border: none">
+                    <img src="~/images/footerLogo.png" runat="server" style="margin-top: 25px" alt="Your Weddin Guide" />
+                </div>
+                <div class="clr">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyRight">
+        <p>
+            &#169; All Rights Reserved Your Wedding Guide 2013</p>
+    </div>
+    <%--  <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                    <AnonymousTemplate>
+                        [ <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">Log In</a> ]
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        Welcome <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
+                        [ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out" LogoutPageUrl="~/"/> ]
+                    </LoggedInTemplate>
+                </asp:LoginView>--%>
+    <script src="js/jquery.script.js" type="text/javascript"></script>
+    </form>
+</body>
+</html>

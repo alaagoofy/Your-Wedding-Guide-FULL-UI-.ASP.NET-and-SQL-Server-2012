@@ -1,0 +1,87 @@
+.pageLeft {background:url(../images/pagerLeft.png) no-repeat right top;width:13px;height:43px;float:left}
+.pageRight {background:url(../images/pagerRight.png) no-repeat left top;width:10px;height:44px;float:left}
+.pagerMiddle {background:url(../images/pagerMiddle.png) repeat-x left top;height:44px;float:left}
+.PagerContainerTable
+{
+	color: #222;
+}
+.PagerInfoCell
+{
+	color:#777;font-size:11px;margin:0 15px 0 0;display:inline-block
+}
+.PagerInfoCell:link
+{
+	color: #fff;
+	text-decoration: none;
+}
+.PagerInfoCell:visited
+{
+	color: #fff;
+	text-decoration: none;
+}
+.PagerCurrentPageCell 
+{
+	cursor:default;font-size:11px;margin:0 4px;padding:0 !important;cursor:default;font-size:11px;color:#fff;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;background:#F8B101;width:27px;height:22px;line-height:22px;display:inline-block;text-align:center
+}
+.PagerOtherPageCells:hover 
+{
+	cursor:default;font-size:11px
+}
+.PagerOtherPageCells 
+{
+	margin:0 4px;padding:0 !important;cursor:default;font-size:11px;color:#fff;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;background:#a39991;width:27px;height:22px;line-height:22px;display:inline-block;text-align:center
+}
+.PagerSSCCells
+{
+	
+}
+.PagerHyperlinkStyle
+{
+color:#fff;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;width:27px;height:22px;line-height:22px;display:inline-block;text-align:center
+}
+.PagerHyperlinkStyle:hover
+{
+	color: #fff;
+	text-decoration: none;background:#F8B101;
+	
+}
+.PagerHyperlinkStyle:link
+{
+	color: #fff;
+	text-decoration: none;
+	
+}
+.PagerHyperlinkStyle:visited
+{
+	color: #fff;
+	text-decoration: none;
+
+}
+.PagerHyperlinkStyle:active
+{
+	color: #fff;
+	text-decoration: none;background:#F8B101
+	
+}
+.GoToLabel
+{
+	
+	color:#fff;
+	cursor:pointer;
+	vertical-align:middle;
+	display:inline;font-size:11px
+}
+.GoToSelect
+{
+	font-size:100%;
+}
+.GoToSelectedOption
+{
+	
+}
+
+.GoToArrow
+{
+	vertical-align:middle;
+	cursor:pointer;
+}

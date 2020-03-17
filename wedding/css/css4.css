@@ -1,0 +1,33 @@
+﻿.fullwidthbanner-container {direction:rtl}
+
+.slider-fix{display:none;}
+
+.view-id-slider #slider-container{position:relative;}
+#slider-container .back,#slider-container .next{cursor:pointer;height:517px;z-index:3;position:absolute;}
+#slider-container .back
+{background:#000;float:left;right:0;}
+#slider-container .next
+{background:#000;bottom:0;left:0;}
+#slider-container .back-arrow,#slider-container .next-arrow{height:517px;position:absolute;text-indent:-9999px;z-index:3;}
+#slider-container .back-arrow
+{background:url(../images/nav-right.png) no-repeat scroll -1px 0 transparent;}
+#slider-container .next-arrow
+{background:url(../images/nav-left.png) no-repeat scroll right 0 transparent;left:0;}
+.front .view-id-slider.view-id-layalina_slider{background:black;}
+#slider-container .back-arrow:hover
+{background:url(../images/nav-right-hover.png) no-repeat scroll -1px 0 transparent;}
+#slider-container .next-arrow:hover
+{background:url(../images/nav-left-hover.png) no-repeat scroll right 0 transparent;}
+.view-id-slider a{color:#FFFFFF;text-decoration:none;}
+.view-id-slider .text-container{padding-right:30px;position:absolute;text-align:right;top:150px;width:310px;}
+.view-id-slider .text-container.Image{display:none;}
+.view-id-slider .text-container.Image.with{display:block;}
+.view-id-slider .view-ttl{font-size:44px;}
+.view-id-slider .view-bdy{color:#858585;float:right;font-size:24px;width:300px;}
+
+
+
+
+
+
+

@@ -1,0 +1,142 @@
+﻿
+
+.wrapper {
+  position:relative;
+    margin:0 auto;
+height:auto
+}
+
+.jb-gallery { 
+    display: none;
+    position: relative;
+    margin-top:15px;
+    margin-left:15px;
+
+}
+
+.jb-gallery li {
+    background:#FFF;
+    border-radius: 2px;
+    padding: 15px;
+    position: absolute;
+    list-style: none;
+  
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2); 
+}
+
+.jb-gallery li:hover {
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.3); 
+    margin-top:1px;
+}
+
+.jb-gallery .thumb {
+    border-radius: 2px;
+    cursor: pointer;
+    display:block;width:290px;
+}
+
+.jb-gallery .image { 
+    display: none;
+    z-index: 9999;
+    position: absolute;
+
+}
+
+.jb-gallery .description {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color:#6f7274;
+    margin-top:14px;
+    width:192px;
+    line-height:20px;
+
+}
+.jb-gallery .description a {
+    color:#39F;
+    text-decoration:none;
+}
+
+.jb-gallery .description a:hover {
+    text-decoration:underline;
+}
+
+.jb-gallery .read_more {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    color:#39F;
+    text-decoration:none;
+}
+
+.jb-gallery .read_more:hover {
+    text-decoration:underline;
+}
+
+.jb-gallery .zoom {
+    background-image:url("img/zoom_icon.png");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+
+    background-color: #000;
+    cursor: pointer;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    border-radius: 2px;
+}
+
+.jb-lightbox {
+    z-index:9999;
+    position: fixed;
+    padding: 20px;
+    background:#FFF;
+    border-radius: 2px;
+    box-shadow: 0 0 4px #000;
+    display: none;
+
+}
+
+.jb-lightbox-wrap {
+    overflow: hidden;
+    position: relative;
+    border-radius: 3px;
+}
+
+.jb-lightbox .close {
+    position: absolute;
+    background-image:url("img/lightbox_close_button.png");
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    width:11px;
+    height:11px;
+    top:6px;
+    right:6px;
+    text-indent: -9999px;
+}
+
+.jb-lightbox .close:hover {
+    background-position: -11px 0px;
+}
+
+.jb-lightbox p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color:#6f7274;
+    margin-top:20px;
+    width:100%;
+    line-height:20px;
+    text-align: center;
+}
+
+
+.jb-drop-shadow{
+    top:0;
+    left:0;
+    position: absolute;
+    width:100%;
+    height:100%;
+    background:#000;
+    opacity:0.7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    filter: alpha(opacity=70);
+}
